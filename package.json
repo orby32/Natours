@@ -4,11 +4,13 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.concat.css -w"
   },
   "author": "Or",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "concat": "^1.0.3",
     "node-sass": "^4.11.0"
   }
 }
